@@ -12,18 +12,6 @@ def find_max_profit(prices):
     profit = max(compare_prices, profit)
     buy = min(sell, buy)
   return profit
-     
-
-  # min_price = prices[0]
-  # max_profit = prices[1] - prices[0]
-
-  # for i in range(1, len(prices)):
-  #   price = prices[i]
-  #   compare_profit = price - min_price
-  #   max_profit = max(compare_profit, max_profit)
-  #   min_price = min(price, min_price)
-
-  # return max_profit
 
 
 if __name__ == '__main__':
