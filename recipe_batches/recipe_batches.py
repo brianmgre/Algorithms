@@ -11,7 +11,7 @@ def recipe_batches(recipe, ingredients):
     numBatches = ingredients[ingredient] // amount
     if batches == None or numBatches < batches:
       batches = numBatches
-  return batches
+  return batches 
 
 if __name__ == '__main__':
   # Change the entries of these dictionaries to test 
